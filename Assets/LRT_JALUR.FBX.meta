@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 2c375cd11281c6f4a9f95dc6dcc4fb51
+timeCreated: 1491992499
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: JALUR 1 LRT005
+    100002: //RootNode
+    100004: Object004
+    100006: Object005
+    100008: Object006
+    100010: Object007
+    100012: Object008
+    100014: Object009
+    100016: Object010
+    100018: Object011
+    100020: Object012
+    100022: Shape092
+    100024: Shape095
+    100026: Shape098
+    100028: Station Gedebage
+    100030: Station Gedebage001
+    100032: Station Gedebage002
+    100034: Station Gedebage003
+    100036: Station Gedebage004
+    100038: Station Gedebage005
+    100040: Station Gedebage006
+    100042: Station Gedebage008
+    400000: JALUR 1 LRT005
+    400002: //RootNode
+    400004: Object004
+    400006: Object005
+    400008: Object006
+    400010: Object007
+    400012: Object008
+    400014: Object009
+    400016: Object010
+    400018: Object011
+    400020: Object012
+    400022: Shape092
+    400024: Shape095
+    400026: Shape098
+    400028: Station Gedebage
+    400030: Station Gedebage001
+    400032: Station Gedebage002
+    400034: Station Gedebage003
+    400036: Station Gedebage004
+    400038: Station Gedebage005
+    400040: Station Gedebage006
+    400042: Station Gedebage008
+    2300000: JALUR 1 LRT005
+    2300002: Object004
+    2300004: Object005
+    2300006: Object006
+    2300008: Object007
+    2300010: Object008
+    2300012: Object009
+    2300014: Object010
+    2300016: Object011
+    2300018: Object012
+    2300020: Shape092
+    2300022: Shape095
+    2300024: Shape098
+    2300026: Station Gedebage
+    2300028: Station Gedebage001
+    2300030: Station Gedebage002
+    2300032: Station Gedebage003
+    2300034: Station Gedebage004
+    2300036: Station Gedebage005
+    2300038: Station Gedebage006
+    2300040: Station Gedebage008
+    3300000: JALUR 1 LRT005
+    3300002: Object004
+    3300004: Object005
+    3300006: Object006
+    3300008: Object007
+    3300010: Object008
+    3300012: Object009
+    3300014: Object010
+    3300016: Object011
+    3300018: Object012
+    3300020: Shape092
+    3300022: Shape095
+    3300024: Shape098
+    3300026: Station Gedebage
+    3300028: Station Gedebage001
+    3300030: Station Gedebage002
+    3300032: Station Gedebage003
+    3300034: Station Gedebage004
+    3300036: Station Gedebage005
+    3300038: Station Gedebage006
+    3300040: Station Gedebage008
+    4300000: Shape092
+    4300002: Shape095
+    4300004: Station Gedebage
+    4300006: Object004
+    4300008: Object005
+    4300010: Station Gedebage001
+    4300012: Object006
+    4300014: Station Gedebage002
+    4300016: Object007
+    4300018: Station Gedebage003
+    4300020: Object008
+    4300022: Station Gedebage004
+    4300024: Station Gedebage005
+    4300026: Object009
+    4300028: Station Gedebage006
+    4300030: Object010
+    4300032: Object011
+    4300034: Station Gedebage008
+    4300036: Object012
+    4300038: JALUR 1 LRT005
+    4300040: Shape098
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

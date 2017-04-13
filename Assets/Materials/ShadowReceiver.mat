@@ -120,7 +120,7 @@ Material:
       second: 0.02
     - first:
         name: _ShadowInt
-      second: 1
+      second: 0.7
     - first:
         name: _ShadowIntensity
       second: 0.6

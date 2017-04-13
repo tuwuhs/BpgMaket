@@ -2,7 +2,8 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class VisToggleButton : MonoBehaviour {
+public class VisToggleButton : MonoBehaviour 
+{
     public GameObject Target;
     public string TextOnVisible;
     public string TextOnInvisible;
@@ -16,7 +17,7 @@ public class VisToggleButton : MonoBehaviour {
         _text = _button.GetComponentInChildren<Text>();
 
         _button.onClick.AddListener(this.ButtonClicked);
-	}
+    }
 	
     void Update()
     {

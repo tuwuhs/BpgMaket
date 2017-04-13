@@ -1478,7 +1478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   secondsToRemainVisible: 0
-  eventReceiver: {fileID: 1232857473}
+  eventReceiver: {fileID: 1061300729}
   _markerTag: 6
 --- !u!1 &870646800
 GameObject:
@@ -3178,7 +3178,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.7
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -3809,7 +3809,7 @@ MonoBehaviour:
   videoConfigurationLinux1: 
   BackgroundLayer1: 9
   NearPlane: 0.01
-  FarPlane: 5000
+  FarPlane: 500
   ContentRotate90: 0
   ContentFlipH: 0
   ContentFlipV: 0

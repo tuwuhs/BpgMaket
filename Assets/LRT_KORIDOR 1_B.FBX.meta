@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: b403fc1fc06fd974da27e8cb7ffff25f
+timeCreated: 1492055220
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: LRT_body001
+    100002: lrt_bone001
+    100004: lrt_bone_nub001
+    100006: LRT_cabin001
+    100008: LRT_interior001
+    100010: LRT_jendela001
+    100012: //RootNode
+    100014: LRT_pintu001
+    100016: LRT_roof001
+    100018: LRT_wheels001
+    400000: LRT_body001
+    400002: lrt_bone001
+    400004: lrt_bone_nub001
+    400006: LRT_cabin001
+    400008: LRT_interior001
+    400010: LRT_jendela001
+    400012: //RootNode
+    400014: LRT_pintu001
+    400016: LRT_roof001
+    400018: LRT_wheels001
+    4300000: LRT_roof001
+    4300002: LRT_pintu001
+    4300004: LRT_jendela001
+    4300006: LRT_interior001
+    4300008: LRT_wheels001
+    4300010: LRT_cabin001
+    4300012: LRT_body001
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: LRT_body001
+    13700002: LRT_cabin001
+    13700004: LRT_interior001
+    13700006: LRT_jendela001
+    13700008: LRT_pintu001
+    13700010: LRT_roof001
+    13700012: LRT_wheels001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: LRT_body001
+        weight: 1
+      - path: lrt_bone001
+        weight: 1
+      - path: lrt_bone001/lrt_bone_nub001
+        weight: 1
+      - path: LRT_cabin001
+        weight: 1
+      - path: LRT_interior001
+        weight: 1
+      - path: LRT_jendela001
+        weight: 1
+      - path: LRT_pintu001
+        weight: 1
+      - path: LRT_roof001
+        weight: 1
+      - path: LRT_wheels001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

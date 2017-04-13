@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: adf0b6cdc1138234192bdcc814013fbb
+timeCreated: 1492110889
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Gentona
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8d12bba816ce60b4e8f346f245a26257, type: 3}
+  - {fileID: 12800000, guid: 0483b98d1614f944a91f6b07c10ea344, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,9 +7,12 @@ public class VisToggleButton : MonoBehaviour
     public GameObject Target;
     public string TextOnVisible;
     public string TextOnInvisible;
+    public float FadeTime = 0.5f;
+    public bool Visible = true;
 
     private Button _button;
     private Text _text;
+    private TransparentChildren _fader;
 
 	void Start () 
     {
@@ -17,39 +20,40 @@ public class VisToggleButton : MonoBehaviour
         _text = _button.GetComponentInChildren<Text>();
 
         _button.onClick.AddListener(this.ButtonClicked);
+
+        _fader = Target.GetComponent<TransparentChildren>();
+        if (_fader == null)
+        {
+            _fader = Target.AddComponent<TransparentChildren>();
+        }
     }
 	
     void Update()
     {
+        if (Visible && _fader.Transparency < 1.0f)
+        {
+            _fader.Transparency += 1.0f * Time.deltaTime / FadeTime;
+        }
+        else if (!Visible && _fader.Transparency > 0.0f)
+        {
+            _fader.Transparency -= 1.0f * Time.deltaTime / FadeTime;
+        }
     }
 
     void OnGUI()
     {
-        if (Target != null)
+        if (Visible)
         {
-            if (Target.activeSelf)
-            {
-                _text.text = TextOnVisible;
-            }
-            else
-            {
-                _text.text = TextOnInvisible;
-            }
+            _text.text = TextOnVisible;
+        }
+        else
+        {
+            _text.text = TextOnInvisible;
         }
     }
 
     void ButtonClicked()
     {
-        if (Target != null)
-        {
-            if (Target.activeSelf)
-            {
-                Target.SetActive(false);
-            }
-            else
-            {
-                Target.SetActive(true);
-            }
-        }
+        Visible = !Visible;
     }
 }

@@ -350,7 +350,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 99792283}
-  - 114: {fileID: 99792284}
   m_Layer: 0
   m_Name: CableCar
   m_TagString: Untagged
@@ -374,17 +373,6 @@ Transform:
   - {fileID: 669016884}
   m_Father: {fileID: 0}
   m_RootOrder: 3
---- !u!114 &99792284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 99792282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c115c3cbfeb6ee4f8f7689a8bdf862a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &130430902
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,6 +792,8 @@ MonoBehaviour:
   Target: {fileID: 156499936}
   TextOnVisible: 'Hide LRT #2'
   TextOnInvisible: 'Show LRT #2'
+  FadeTime: 0.3
+  Visible: 1
 --- !u!114 &413773574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -985,14 +975,13 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 629326314}
-  - 114: {fileID: 629326315}
   m_Layer: 0
   m_Name: LRT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &629326314
 Transform:
   m_ObjectHideFlags: 0
@@ -1008,17 +997,6 @@ Transform:
   - {fileID: 156499937}
   m_Father: {fileID: 0}
   m_RootOrder: 4
---- !u!114 &629326315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 629326313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c115c3cbfeb6ee4f8f7689a8bdf862a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &643053685
 GameObject:
   m_ObjectHideFlags: 0
@@ -2382,6 +2360,8 @@ MonoBehaviour:
   Target: {fileID: 99792282}
   TextOnVisible: Hide Cable Car
   TextOnInvisible: Show Cable Car
+  FadeTime: 0.3
+  Visible: 1
 --- !u!1 &1599018550
 GameObject:
   m_ObjectHideFlags: 0
@@ -3092,6 +3072,8 @@ MonoBehaviour:
   Target: {fileID: 77074200}
   TextOnVisible: 'Hide LRT #1'
   TextOnInvisible: 'Show LRT #1'
+  FadeTime: 0.3
+  Visible: 1
 --- !u!1 &1927274361
 GameObject:
   m_ObjectHideFlags: 0

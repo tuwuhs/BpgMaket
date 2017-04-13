@@ -13,6 +13,9 @@ public class TransparentChildren : MonoBehaviour
         set
         {
             _transparency = value;
+
+            if (_children == null) _children = GetAllChildren();
+
             foreach (GameObject obj in _children)
             {
                 Renderer r = obj.GetComponent<Renderer>();

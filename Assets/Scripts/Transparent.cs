@@ -22,7 +22,7 @@ public class Transparent : MonoBehaviour
                 _oldMaterial = new Material(_material);
 
                 // Change rendering mode to transparent
-                _material.SetFloat("_Mode", 3.0f);
+                _material.SetFloat("_Mode", 2.0f);
                 _material.SetInt("_SrcBlend",
                     (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
                 _material.SetInt("_DstBlend",

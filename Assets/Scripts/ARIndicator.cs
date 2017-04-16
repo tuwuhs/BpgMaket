@@ -7,6 +7,7 @@ public class ARIndicator : MonoBehaviour
 
     void Start()
     {
+        Indicator.SetActive(false);
     }
 
     void Update()

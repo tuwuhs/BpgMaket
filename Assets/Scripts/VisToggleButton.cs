@@ -7,11 +7,15 @@ public class VisToggleButton : MonoBehaviour
     public GameObject Target;
     public string TextOnVisible;
     public string TextOnInvisible;
+    public Color ActiveBackgroundColor;
+    public Color ActiveTextColor;
+    public Color InactiveBackgroundColor;
+    public Color InactiveTextColor;
 
     private Button _button;
     private Text _text;
 
-	void Start () 
+	void Start() 
     {
         _button = gameObject.GetComponent<Button>();
         _text = _button.GetComponentInChildren<Text>();
@@ -29,10 +33,18 @@ public class VisToggleButton : MonoBehaviour
         {
             if (Target.activeSelf)
             {
+                ColorBlock cb = _button.colors;
+                cb.normalColor = ActiveBackgroundColor;
+                _button.colors = cb;
+                _text.color = ActiveTextColor;
                 _text.text = TextOnVisible;
             }
             else
             {
+                ColorBlock cb = _button.colors;
+                cb.normalColor = InactiveBackgroundColor;
+                _button.colors = cb;
+                _text.color = InactiveTextColor;
                 _text.text = TextOnInvisible;
             }
         }

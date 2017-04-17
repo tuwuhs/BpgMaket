@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4469251, g: 0.4967872, b: 0.57508487, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692445, g: 0.49678636, b: 0.57508576, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -513,9 +513,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b209c1f45f6ef804fb3b98c6a17efd17, type: 3}
+    m_Font: {fileID: 12800000, guid: adf0b6cdc1138234192bdcc814013fbb, type: 3}
     m_FontSize: 36
-    m_FontStyle: 0
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 300
@@ -1580,9 +1580,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b209c1f45f6ef804fb3b98c6a17efd17, type: 3}
+    m_Font: {fileID: 12800000, guid: adf0b6cdc1138234192bdcc814013fbb, type: 3}
     m_FontSize: 36
-    m_FontStyle: 0
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 48
@@ -2062,9 +2062,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: b209c1f45f6ef804fb3b98c6a17efd17, type: 3}
+    m_Font: {fileID: 12800000, guid: adf0b6cdc1138234192bdcc814013fbb, type: 3}
     m_FontSize: 36
-    m_FontStyle: 0
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 48
@@ -2540,10 +2540,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1535224274}
-  m_LocalRotation: {x: 0.06476129, y: -0.70413494, z: 0.70413494, w: -0.06476129}
-  m_LocalPosition: {x: 13.9, y: 100.8, z: 0}
-  m_LocalScale: {x: 8.7, y: 8.7, z: 8.7}
-  m_LocalEulerAnglesHint: {x: 100.53299, y: -90, z: 89.99999}
+  m_LocalRotation: {x: -0.009551973, y: -0.7070423, z: 0.7070423, w: 0.009551973}
+  m_LocalPosition: {x: 54.3, y: 95.8, z: 0.3}
+  m_LocalScale: {x: 9.669358, y: 9.66936, z: 9.66936}
+  m_LocalEulerAnglesHint: {x: 88.452, y: -90, z: 90}
   m_Children:
   - {fileID: 2140674400}
   - {fileID: 1893045999}
